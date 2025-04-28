@@ -1,0 +1,28 @@
+<!DOCTYPE group [
+    <!ELEMENT group (member+)>
+    <!ELEMENT member ( name, rollno, cgpa,role)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT rollno (#PCDATA)>
+    <!ELEMENT cgpa (#PCDATA)>
+    <!ELEMENT  role (#PCDATA)>
+]>
+<group>
+  <member>
+    <name>Srujana</name>
+    <rollno>Roll_No:46</rollno>
+    <cgpa> CGPA:8</cgpa>
+    <role> <mark>Role:Leader</mark></role>
+  </member>
+  <member>
+    <name>Trupti</name>
+    <rollno>Roll_No:47</rollno>
+    <cgpa>CGPA:8.2</cgpa>
+    <role>Role:Member</role>
+  </member>
+  <member>
+    <name>Shreya</name>
+    <rollno>Roll_No:51</rollno>
+    <cgpa>CGPA:8</cgpa>
+    <role>Role:Member</role>
+  </member>
+</group>

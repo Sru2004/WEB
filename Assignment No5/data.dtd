@@ -1,0 +1,29 @@
+
+<!DOCTYPE Students [
+    <!ELEMENT Students (Student+)>
+    <!ELEMENT Student (RollNo, Name, Subject, CGPA)>
+    <!ELEMENT RollNo (#PCDATA)>
+    <!ELEMENT Name (#PCDATA)>
+    <!ELEMENT Subject (#PCDATA)>
+    <!ELEMENT CGPA (#PCDATA)>
+]>
+<Students>
+    <Student>
+        <RollNo>46</RollNo>
+        <Name>Srujana Toukare</Name>
+        <Subject>WTL</Subject>
+        <CGPA>8</CGPA>
+    </Student>
+    <Student>
+        <RollNo>47</RollNo>
+        <Name>Trupti Kandalkar</Name>
+        <Subject>IS</Subject>
+        <CGPA>8.2</CGPA>
+    </Student>
+    <Student>
+        <RollNo>52</RollNo>
+        <Name>Shreya Patil</Name>
+        <Subject>OS</Subject>
+        <CGPA>8.3</CGPA>
+    </Student>
+</Students>
